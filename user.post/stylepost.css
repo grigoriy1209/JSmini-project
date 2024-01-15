@@ -1,0 +1,23 @@
+ body{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     flex-direction: column;
+ }
+ #box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border:2px solid red;
+ }
+ #main li {
+
+ }
+ #header button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 90vw;
+     background-size: 12px;
+     color: darkblue;
+ }

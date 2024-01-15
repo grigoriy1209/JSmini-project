@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted red;
+    width: 50vw;
+    height: 60vh;
+    font-size: 20px;
+}
+
+#header button{
+    width:90vw;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    background-size: 12px;
+    background-color: red;
+    color: chartreuse;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30vw;
+    /*height:50vh ;*/
+}

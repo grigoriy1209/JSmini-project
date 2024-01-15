@@ -20,10 +20,10 @@ const box = document.getElementById('box');
         const title = document.createElement('li');
         const body = document.createElement('li');
 
-        id.textContent = `postid: ${post.id} `;
-        userId.textContent = `userId: ${post.userId} `;
-        title.textContent = `  title:   ${post.title} `;
-        body.textContent = `  body:   ${post.body}`;
+        id.textContent = `Postid: ${post.id} `;
+        userId.textContent = `UserId: ${post.userId} `;
+        title.textContent = `  Tittle:   ${post.title} `;
+        body.textContent = `  Body:   ${post.body}`;
 
         ul.appendChild(id)
         ul.appendChild(userId)
@@ -52,6 +52,7 @@ btn.onclick = function () {
 
              comments.forEach( comment => {
                      const li = document.createElement('li');
+
                      li.textContent= `Comment:${comment.body}`;
 
                      ul.appendChild(li)
