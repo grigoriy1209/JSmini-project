@@ -10,9 +10,7 @@
      align-items: center;
      border:2px solid red;
  }
- #main li {
 
- }
  #header button{
      display: flex;
      justify-content: center;
