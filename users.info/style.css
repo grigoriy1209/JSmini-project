@@ -17,21 +17,27 @@ h1{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 30vw;
-    height: 60vh;
+    flex-direction: row;
+    width: 51vw;
+    height: 40vh;
     border: 2px solid  blueviolet;
 
 }
-div{
+ #box div {
     display: flex;
    justify-content:center;
     align-items: center;
+    flex-direction: column;
     border: 1px solid green;
+     width: 10vw;
+     height: 15vh;
+
+
 }
- div button{
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*flex-wrap: wrap;*/
+div button{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     color: blue;
     background-color: chartreuse;
 }

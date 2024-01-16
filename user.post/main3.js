@@ -53,7 +53,7 @@ btn.onclick = function () {
              comments.forEach( comment => {
                      const li = document.createElement('li');
 
-                     li.textContent= `Comment:${comment.body}`;
+                     li.textContent= ` Post-Comment: ${comment.body}`;
 
                      ul.appendChild(li)
              })

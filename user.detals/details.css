@@ -26,8 +26,18 @@ body{
 #main{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 30vw;
+
     /*height:50vh ;*/
+}
+#main div {
+    display: flex;
+    width: 14vw;
+    margin: 0;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border:1px solid mediumvioletred ;
 }

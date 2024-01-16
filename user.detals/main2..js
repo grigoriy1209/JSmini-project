@@ -6,7 +6,6 @@
 //     <!--котра має детальну інфу про поточний пост.-->
 const userId = new URL(location.href).searchParams.get('userId');
 console.log(userId);
-
 const foo = async () => {
     const json = await fetch(`http://jsonplaceholder.typicode.com/users/${userId}`);
     console.log(json);
@@ -50,7 +49,7 @@ const foo = async () => {
     box.appendChild(ul);
 }
 void foo();
-    // =======================================================================================
+    // =====================================POSTS==================================================
     const header = document.getElementById('header')
     const btn = document.createElement('button')
     const div = document.createElement('div')
